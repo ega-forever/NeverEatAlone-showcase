@@ -13,7 +13,9 @@ Simple token auth handler
 #Usage
 1) you can test the app via postman
 Available routes:
+
 GET '/' - to test if authed (add x-access-token within token, fetched from auth)
+
 POST '/auth' - to get simple access token using login details (name and password as params in post data)
 
 2)login info can be found in /app/config/index.js
